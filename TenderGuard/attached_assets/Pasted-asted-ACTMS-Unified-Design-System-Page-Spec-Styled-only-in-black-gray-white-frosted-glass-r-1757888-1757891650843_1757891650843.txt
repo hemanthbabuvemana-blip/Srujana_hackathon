@@ -1,0 +1,129 @@
+asted--ACTMS-Unified-Design-System-Page-Spec-Styled-only-in-black-gray-white-frosted-glass-r-1757888653420_1757888653420.txt
+
+⸻
+
+ACTMS — Unified Design System & Page Spec
+
+(Styled only in black, gray, white, frosted glass, radiant beams)
+
+⸻
+
+Global Theme & System
+	•	Background
+	•	Base: #000000 → #0A0A0A gradient
+	•	Radiant beams: diagonal soft white/gray streaks with blur + subtle animation
+	•	Always present across all pages
+	•	Typography
+	•	Font: Inter / SF Pro / Poppins (sans-serif, modern)
+	•	Headline: Bold, white (#FFFFFF)
+	•	Body: Regular/Medium, gray (#B3B3B3)
+	•	Glass Panels (cards, nav, modals, forms, chatbot)
+	•	Fill: rgba(255, 255, 255, 0.04)
+	•	Border: 1px solid rgba(255, 255, 255, 0.08)
+	•	Blur: backdrop-filter: blur(14px)
+	•	Radius: 16px
+	•	Shadow: 0 6px 30px rgba(0,0,0,0.6)
+	•	Buttons
+	•	Primary CTA: White background (#FFFFFF), black text (#000000), radius 9999px, hover → invert (black bg, white text).
+	•	Secondary CTA: Glass panel style, border, white text, hover → subtle white glow.
+	•	Animations
+	•	Sections fade-in on scroll
+	•	Cards hover → soft glow outline
+	•	Tabs → slide-in transitions
+	•	Alerts / Chat messages → slide from bottom
+
+⸻
+
+ Home Page
+	•	Hero Section
+	•	Title: “Transparent Tenders. AI-Powered Integrity.” (white, bold)
+	•	Subtitle: One-liner, gray (#B3B3B3)
+	•	Buttons:
+	•	[Get Started] (white bg, black text)
+	•	[Learn More] (glass style, white text)
+	•	Highlights Section
+	•	3 Glass Cards with icons:
+	•	Tender Transparency
+	•	AI Fraud Detection
+	•	Seamless Bidding
+	•	Footer
+	•	Minimal links in gray (#B3B3B3)
+	•	Toggle switch (like screenshot “Demo Content”)
+
+⸻
+
+ Dashboard Page
+
+Purpose: High-level data overview
+	•	Layout: Glass tab bar with 5 tabs → Overview, Financial, Security, Operational, Admin
+	•	Charts inside Glass Cards:
+	•	Overview: Pie (Tender Status), Bar (Suspicion Score)
+	•	Financial: Bar (Tender Value Distribution)
+	•	Security: Doughnut (Risk Levels: Safe / Suspicious — white & gray tones only, with opacity differences)
+	•	Operational: Line (Activity per day)
+	•	Admin: KPI cards → Total Tenders, Active Users, AI Alerts
+
+(⚠️ Charts stay monochrome: white → light gray → dark gray gradients, no neon colors)
+
+⸻
+
+Tender Management Page
+
+Tabs:
+	1.	Upload New Tender
+	•	Glass form inputs (white placeholder text)
+	•	Upload button → white bg, black text
+	2.	View Tenders
+	•	Glass data table
+	•	Rows glow subtly on hover
+	3.	Tender Analytics
+	•	Pie chart (department distribution) with shades of white/gray only
+
+⸻
+
+ Bid Submission Page
+	•	Stepper form in glass panels:
+	1.	Select Tender
+	2.	Enter Bid
+	3.	Upload Docs
+	4.	Submit
+	•	Submit button → Primary CTA (white bg, black text)
+	•	Success confirmation → Glass modal with checkmark animation (white glow)
+
+⸻
+
+ AI Analysis Page
+
+Tabs:
+	1.	Real-time Alerts
+	•	Glass notification cards slide in live
+	2.	Anomaly Dashboard
+	•	Bar chart (distribution)
+	•	Timeline/Scatter chart (scores over time)
+	3.	Model Training
+	•	Glass panel with animated gradient progress bar (white → gray)
+	•	Logs in terminal-style glass panel (white monospace text)
+	4.	Pattern Analysis
+	•	Scatter chart (bid vs anomaly score), plotted in shades of white/gray
+
+⸻
+
+ Chatbot Page
+	•	Floating Glass Chat Window
+	•	Messages:
+	•	User → right side, white bubble with black text
+	•	AI → left side, glass bubble with white text
+	•	Input bar: glass style with glowing outline
+
+⸻
+
+Final Consistency Notes
+	•	Color Tokens
+	•	Background: #000000 → #0A0A0A
+	•	Text: #FFFFFF / #B3B3B3
+	•	Glass: rgba(255,255,255,0.04) fill + rgba(255,255,255,0.08) border
+	•	No accent palette — all visuals must stay in monochrome tones
+	•	Charts → White & gray gradients only
+	•	UI → Frosted glass cards, minimalism, subtle glow animations
+
+⸻

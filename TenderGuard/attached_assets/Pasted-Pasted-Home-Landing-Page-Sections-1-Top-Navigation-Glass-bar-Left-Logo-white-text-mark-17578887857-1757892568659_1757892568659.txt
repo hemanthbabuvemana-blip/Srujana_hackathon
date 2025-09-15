@@ -1,0 +1,141 @@
+Pasted--Home-Landing-Page-Sections-1-Top-Navigation-Glass-bar-Left-Logo-white-text-mark--1757888785761_1757888785762.txt
+Home (Landing Page)
+
+Sections:
+	1.	Top Navigation (Glass bar)
+	•	Left: Logo (white text / mark)
+	•	Right: Links: Home, Tenders, Dashboard, AI, Docs, Sign in
+	•	Glass style: frosted, 64px height
+	•	Animation: nav links fade-in, underline grows on hover
+	2.	Hero Section (Full viewport)
+	•	Left: Headline (large white text) + subtext (gray #B3B3B3)
+	•	CTA buttons:
+	•	Primary (solid white bg, black text)
+	•	Secondary (glass outline, white text)
+	•	Right: Floating frosted dashboard preview card
+	•	Animation: text fades up, CTA buttons slide up, floating card bobbing up/down
+	3.	Features Row (3 cards)
+	•	Each frosted card: icon (white), headline, short text
+	•	Animation: stagger fade-in left → right, glow on hover
+	4.	Live Stats Strip
+	•	Glass container with animated counters (e.g. “Tenders Published”, “Bids Submitted”)
+	•	Animation: numbers count up on scroll-in
+	5.	Trust Logos
+	•	Row of institution logos in white/gray
+	•	Glass background strip
+	•	Animation: fade-in with slight scale
+	6.	Footer
+	•	Links: Privacy, Terms, Contact
+	•	Theme toggle (light/dark beam toggle)
+	•	Animation: subtle fade-in on scroll
+
+⸻
+
+Dashboard (Admin)
+
+Layout:
+	•	Sidebar (left frosted): logo, nav icons/labels (Dashboard, Analytics, Security, Admin)
+	•	Top Bar (glass): search box, date picker, profile avatar
+	•	Main Content: tabbed content panels
+
+Tabs:
+	1.	Overview
+	•	4 KPI cards (Total Tenders, Active Bids, Suspicious Flags, Alerts)
+	•	2–3 charts (Pie: tender status; Bar: suspicion scores; Table: recent suspicious bids)
+	•	Animation: KPI count-up, charts animate in, table rows slide up
+	2.	Financial Analysis
+	•	Bar chart: tender value distribution
+	•	Side panel: Top 10 high-value tenders (list in frosted card)
+	3.	Security Insights
+	•	Doughnut chart: suspicious vs clean bids
+	•	Gauge (risk score)
+	•	Animation: doughnut fills, needle sweeps to position
+	4.	Operational Metrics
+	•	Line chart: activity over time
+	•	Animation: line draws across, points pop in
+	5.	System Admin
+	•	User management table
+	•	Heatmap of role activity
+	•	Quick actions (buttons in frosted toolbar)
+
+⸻
+
+Tender Management
+
+Tabs:
+	1.	Upload New Tender
+	•	Form fields (title, department, region, deadline, budget, attachments)
+	•	Drag & drop upload (glass area) with progress bar
+	•	Animation: progress bar fills, success checkmark pulses
+	2.	View Tenders
+	•	Large frosted table: columns (ID, Title, Dept, Budget, Status, Deadline, Actions)
+	•	Row expand: details + file list
+	•	Bulk filters as glass chips (Active, Upcoming, Closed)
+	•	Animation: table rows hover glow + lift, filter chips slide-in
+	3.	Tender Analytics
+	•	Pie chart: tenders by department
+	•	Bar chart: tenders by month
+	•	Export toolbar (glass buttons)
+
+⸻
+
+ Bid Submission
+
+Flow: multi-step wizard (center frosted card, progress pills on top)
+	1.	Select Tender (search dropdown)
+	2.	Company Info (form)
+	3.	Bid Details (amount, timeline)
+	4.	Upload Proposal (drag & drop, hash displayed)
+	5.	Review & Sign (checkbox + e-sign)
+	6.	Submit → success modal
+
+Animations:
+	•	Step transitions: slide left/right
+	•	Submit: success modal pops in with animated checkmark
+	•	File upload: shimmering gradient progress bar
+
+⸻
+
+ AI Analysis
+
+Tabs:
+	1.	Real-time Alerts
+	•	Feed of frosted cards (alert type, tender ID, company, score, timestamp)
+	•	Right: mini heatmap (departments vs alerts)
+	•	Animation: alerts slide up one by one
+	2.	Anomaly Dashboard
+	•	Bar chart: anomaly score distribution (white/gray gradient)
+	•	Scatter plot: anomaly scores over time
+	•	Zoom/brush interaction
+	•	Animation: bars grow, scatter points fade+scale
+	3.	Model Training
+	•	Training status card (model version, metrics badges)
+	•	Progress bar (animated shimmer)
+	•	Logs console (live typewriter lines)
+	4.	Pattern Analysis
+	•	Scatter chart (bid amount vs anomaly score)
+	•	Suspicious bids glow + pulse
+	•	Model explainability card (text explanation in frosted card)
+
+⸻
+
+ Chatbot
+
+Two modes:
+	1.	Floating Chat
+	•	Button (bottom-right, frosted orb, glowing ring)
+	•	Expands into frosted chat panel
+	2.	Full Chat Page
+	•	Large frosted window with message history
+	•	User messages: right, darker glass
+	•	AI messages: left, lighter glass with glow edge
+	•	Quick action chips (glass pills)
+	•	File upload support
+
+Animations:
+	•	User messages: slide from right
+	•	AI messages: slide from left, fade in
+	•	Quick chips: hover glow, stagger fade-in
+	•	Export button: ripple click
+
+⸻
